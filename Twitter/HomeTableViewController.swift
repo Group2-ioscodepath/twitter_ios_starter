@@ -86,11 +86,10 @@ class HomeTableViewController: UITableViewController {
     }
     
     
-    override func tableView(_ tableview: UITableView, willDisplay cell: UITableViewCell, forRowAt index: IndexPath){
-//        if indexPath.row + 1 == tweetArray.count {
-//            loadMoreTweets()
-//        }
-    }
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {         if indexPath.row + 1 == tweetArray.count{
+                    loadMoreTweets()
+                    }
+        }
     
     
     
