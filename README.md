@@ -30,6 +30,8 @@ Here's a walkthrough of implemented user stories:
 
 **Name of your app** is a basic twitter app to read your tweets.
 
+<br>
+
 Time spent: **12** hours spent in total
 
 ## User Stories
